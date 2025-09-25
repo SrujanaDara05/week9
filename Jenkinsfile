@@ -14,8 +14,8 @@ pipeline {
         }
         stage('Deploy to Kubernetes') {
             steps {
-                bat 'kubectl apply -f C:\Users\ASUS\OneDrive\Desktop\Devops\deployment.yaml'
-                bat 'kubectl apply -f C:\Users\ASUS\OneDrive\Desktop\Devops\service.yaml'
+                bat 'kubectl apply -f C:/Users/ASUS/OneDrive/Desktop/Devops/deployment.yaml'
+                bat 'kubectl apply -f C:/Users/ASUS/OneDrive/Desktop/Devops/service.yaml'
             }
         }
     }
